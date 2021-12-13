@@ -10,3 +10,11 @@
   font-size: 18px;
   justify-content: space-between;
 }
+.containe_wrapper{
+  max-width: 1280px;
+  margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
