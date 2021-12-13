@@ -1,11 +1,43 @@
 import styled from "styled-components";
 
 const NavWrapper = styled.div`
-  padding: 13px;
-  max-width: 1280px;
-  margin: 0 auto;
-  display: flex;
+  padding: 0 13px;
+  margin-left: -15px;
+    margin-right: -15px;
+    border-bottom: 1px solid #d2cfcf;
 
+.containe_wrapper{
+  max-width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.nav-link {
+  
+  color: black;
+}
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  .logo{
+    background-color: #e74c23;
+    background-image: linear-gradient(
+45deg, #f1a30b, #58c1ec);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 500;
+  }
+  img{
+    width: 32px;
+  }
   li.nav-item {
     padding: 3px 20px;
   }
@@ -13,7 +45,7 @@ const NavWrapper = styled.div`
     flex-direction: row;
   }
   .nav-link {
-    color: white;
+    // color: white;
     font-weight: 500;
   }
   .nav-link.nav-btn #basic-button {
