@@ -27,6 +27,21 @@ const HomeWrapper = styled.div`
   .custom_btn {
     text-align: center;
   }
+
+  .mainContent{
+    margin-left: -15px;
+    margin-right: -15px;
+    background-color: #f2f2f2;
+  }
+
+  .side_tab_wrap{
+    max-width: 1280px;
+    margin: 0 auto;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      padding: 0 15px;
+  }
 `;
 
 export default HomeWrapper;

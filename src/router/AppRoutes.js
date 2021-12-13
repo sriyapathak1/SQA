@@ -8,7 +8,7 @@ import { Home, About, Contact } from "../modules";
 import Navigation from "../components/navigations/Navigations";
 import Footer from "../components/footer/Footer";
 import Blog from "../modules/Blogs";
-import { Register } from "../components/login";
+// import { Register } from "../components/login";
 
 const AppRoutes = () => {
   return (
@@ -20,7 +20,7 @@ const AppRoutes = () => {
           <Route path="/about" element={<About />} />
           <Route path="/contact" exact element={<Contact />} />
           <Route path="/blog" exact element={<Blog />} />
-           <Route path="/register" exact element={<Register />} />
+           {/* <Route path="/register" exact element={<Register />} /> */}
         </Routes>
         <Footer />
       </Router>

@@ -3,15 +3,18 @@ import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import AppRoutes from "./router/AppRoutes";
-// import '@stack-ui/components/styles.css';
-// import Navigation from "./components/navigations";
-// import { Home, About, Contact, Blog  } from "./modules";
-// import { Register } from "./components/login";
-// import Footer from "./components/footer/Footer";
+import { Box, Container } from "@stack-ui/components";
+import { SidebarNav } from "./components";
 
 const App = () => {
   return (
+    
+      
+    <Container>
       <AppRoutes />
+    
+    </Container>
+  
   );
 };
 
