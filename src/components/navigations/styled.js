@@ -5,7 +5,8 @@ const NavWrapper = styled.div`
   margin-left: -15px;
     margin-right: -15px;
     border-bottom: 1px solid #d2cfcf;
-
+    background: linear-gradient(
+      -90deg, rgb(0, 89, 178), rgb(0, 127, 255) 120%);
 .containe_wrapper{
   max-width: 1280px;
     display: flex;
@@ -15,7 +16,7 @@ const NavWrapper = styled.div`
 }
 .nav-link {
   
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
   .navbar-brand {

@@ -15,36 +15,39 @@ const UserQuest = () => {
     // 
     return (
         <ContentWrapper className="content_tabbing">
+            <Box className="searchbox">
+                <input type="text" placeholder="Search.." />
+            </Box>
             <Box className="tab_wrap">
                 <Box className="tab_menu">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
                             <button class="nav-link active" id="recent-tab" data-bs-toggle="tab" data-bs-target="#recent"
-                             type="button" role="tab" aria-controls="recentquestion" aria-selected="true">Recent Questions</button>
+                                type="button" role="tab" aria-controls="recentquestion" aria-selected="true">Recent Questions</button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="mostanswer-tab" data-bs-toggle="tab" data-bs-target="#mostanswerd"
-                             type="button" role="tab" aria-controls="mostanswered" aria-selected="false">Most Answered</button>
+                                type="button" role="tab" aria-controls="mostanswered" aria-selected="false">Most Answered</button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="bumpquest-tab" data-bs-toggle="tab" data-bs-target="#contact"
-                             type="button" role="tab" aria-controls="bumpquestions" aria-selected="false">Bump Question</button>
+                                type="button" role="tab" aria-controls="bumpquestions" aria-selected="false">Bump Question</button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="answer-tab" data-bs-toggle="tab" data-bs-target="#profile"
-                             type="button" role="tab" aria-controls="answers" aria-selected="false">Answers</button>
+                                type="button" role="tab" aria-controls="answers" aria-selected="false">Answers</button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="mostvisited-tab" data-bs-toggle="tab" data-bs-target="#contact"
-                             type="button" role="tab" aria-controls="mostvisited" aria-selected="false">Most Visited</button>
+                                type="button" role="tab" aria-controls="mostvisited" aria-selected="false">Most Visited</button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="voted-tab" data-bs-toggle="tab" data-bs-target="#profile"
-                             type="button" role="tab" aria-controls="voted" aria-selected="false">Most Voted</button>
+                                type="button" role="tab" aria-controls="voted" aria-selected="false">Most Voted</button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="noanswers-tab" data-bs-toggle="tab" data-bs-target="#noanswers"
-                             type="button" role="tab" aria-controls="noanswers" aria-selected="false">No Answers</button>
+                                type="button" role="tab" aria-controls="noanswers" aria-selected="false">No Answers</button>
                         </li>
                     </ul>
                 </Box>
