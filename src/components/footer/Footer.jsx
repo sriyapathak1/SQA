@@ -43,7 +43,7 @@ const Footer = () => {
               <li>Support</li>
             </ul>
         </div>
-        <div class="follow">
+        {/* <div class="follow">
           <h4>Follow</h4>
           <div class="icons">
             <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
@@ -51,7 +51,7 @@ const Footer = () => {
             <li><i class="fa fa-linkedin-square" aria-hidden="true"></i></li>
             <li><i class="fa fa-wifi" aria-hidden="true"></i></li>
           </div>
-        </div>
+        </div> */}
       </Box>
 
       <p>2020@ copy right</p>

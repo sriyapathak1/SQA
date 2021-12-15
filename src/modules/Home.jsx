@@ -7,6 +7,7 @@ import HomeWrapper from "./styled";
 import ImgBanner from "../assets/img/img-bnr.png";
 import { SidebarNav } from "../components";
 import UserQuest from "./userQuest";
+import StatsList from "./statsList";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <Box className="side_tab_wrap">
           <SidebarNav />
           <UserQuest />
+          <StatsList />
         </Box>
       </Box>
     </HomeWrapper>

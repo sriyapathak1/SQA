@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from "react-router-dom";
 import { Sidebar, Container } from "@stack-ui/components";
 import SideNavWrapper from './styled';
+import { FaHome, FaNotesMedical, FaBookOpen, FaUsers } from 'react-icons/fa';
 
 
 const SidebarNav = () => {
@@ -18,21 +19,25 @@ const SidebarNav = () => {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <NavLink className="nav-link" to="/">
+              <FaHome />
                 Home
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/addpost">
+                <FaNotesMedical />
                 Add Post
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/community">
+                <FaUsers />
                 Communities
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/questions">
+                <FaBookOpen />
                 Questions
               </NavLink>
             </li>

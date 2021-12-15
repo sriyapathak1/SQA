@@ -24,6 +24,26 @@ const AppRoutes = () => {
         </Routes>
         <Footer />
       </Router>
+      {/* <Router> */}
+        {/* <Navigation /> */}
+        {/* <Box className="main_contentBox">
+          <Box className="sideBAr">
+            <SidebarNav />
+          </Box>
+          <Box className="tabsds_content">
+            {/* < /> */}
+            {/* <>hello</>
+          </Box>
+        </Box>
+        <Routes>
+          <Route path="/addpost" element={<AddPost />} /> */} */}
+          {/* <Route path="/about" element={<About />} />
+          <Route path="/contact" exact element={<Contact />} />
+          <Route path="/blog" exact element={<Blog />} /> */}
+           {/* <Route path="/register" exact element={<Register />} /> */}
+        {/* </Routes> */}
+        {/* <Footer /> */}
+      {/* </Router> */}
     </>
   );
 };
